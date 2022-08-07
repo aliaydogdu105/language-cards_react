@@ -1,20 +1,19 @@
 .cards-area-container {
-  height: 47rem;
-  width: 25rem;
+  height: 30rem;
+  width: 50rem;
   background-color: #d9ab73;
-  margin: 10px auto;
-  border-radius: 1rem;
+  margin: 1rem auto;
+  padding-top: 0.5rem;
+  border-radius: 2rem;
   display: grid;
   grid-template-rows: 10% 90%;
   grid-template-areas: "top" "bottom";
-  overflow: hidden;
 }
 
 .language-title {
   grid-area: top;
   text-align: center;
-  color: white;
-
+  color: rgb(69, 1, 1);
   font-size: 2.4rem;
   margin-top: 1rem;
 }
@@ -23,5 +22,5 @@
   grid-area: bottom;
   padding: 1rem;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
